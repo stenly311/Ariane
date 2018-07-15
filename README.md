@@ -1,13 +1,13 @@
 # Ariane
 
 Simple to use, reliable to run and fast to start with utility for process orchestriation and execution measuring. 
-Standalone application written in **WPF** for easier maintaining multiple console applications output, running simultaneously in the background,under the one user interface window.
+Standalone application written in **WPF** for easier maintaining multiple console applications output, running simultaneously in the background, under the one user interface window.
 
 ## What type of problems this project help you to solve?
 This approach helps you to keep a track of the latest output data coming from console applications, navigate into Error messages by 
-appling filters or copy and paste selected records from the output window container for further context investigation.
+applying filters or copy and paste selected records from the output window container for further context investigation.
 
-Standalone application gets build into one executable file for easy to install and piece of mind purposes, so that all dependent references are on the place during run time.
+Standalone application gets build into one executable file for easy to install and peace of mind purposes, so that all dependent references are on the place during run time.
 
 Also supports consuming messages send via **RabbitMQ exchange**. For more details how to configure pipeline, navigate into RabbitMQ section below. 
 
@@ -34,7 +34,7 @@ Utility listens to Win events for process Start/Stop and for this reason, it nee
 2. Run the Ariane executable file for first time and after it opens up, close it
 3. **Configuration.JSON** file at application root path will be generated
 4. Open the file and configure your processes
-5. Start Ariate
+5. Start Ariane
 
 ## Configure process/console list like in example (step 4.)
 ```json
@@ -80,14 +80,14 @@ Utility listens to Win events for process Start/Stop and for this reason, it nee
 ]
 ```
 ## Application behaviour to be aware of
-In very long runing use cases and beside the fact that output messages are stored in memory only,
+In very long running use cases and beside the fact that output messages are stored in memory only,
 application will **keep 1100** console messages per process and will delete the oldest **100 every time number exceeds**.
 
 ## RabbitMQ pipeline configuration
 1. Install RabbitMQ if not installed already [RabbitMQ for Windows](https://www.rabbitmq.com/install-windows.html)
 2. Build NLog.RabbitMQ.Appender from the solution
 3. Install NLog.RabbitMQ.Appender.dll appender from the output to application which will broadcast log messages. 
-If using **nLog** use this getting started quick quide how to add the appender to your application:
+If using **nLog** use this getting started quick quid how to add the appender to your application:
 ```c#
   <nlog  xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -147,5 +147,3 @@ Leave me [your feedback](https://www.martinstanik.com "My personal home page")  
 ## Authors
 
 * **Stanik Martin** - *Initial work* - [Stenly311](https://github.com/stenly311)
-
-"# Ariane" 
