@@ -1,6 +1,6 @@
 # Ariane
 
-Simple to use, reliable to run and fast to start with utility for process orchestriation and execution measuring. 
+Simple to use, reliable to run and fast to start with utility for process orchestration and execution measuring. 
 Standalone application written in **WPF** for easier maintaining multiple console applications output, running simultaneously in the background, under the one user interface window.
 
 ## What type of problems this project help you to solve?
