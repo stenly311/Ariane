@@ -1,0 +1,577 @@
+﻿[
+  {
+    "DisplayName": "AS BatchProcessor",
+    "ProcessFileName": "AlphaCert.BatchProcessor.Console.exe",
+    "Arguments": "",
+    "RootPath": "c:\\Repository\\Deploy\\Consoles\\AlphaCert.BatchProcessor.Console",
+    "MeasureSettings": [
+      {
+        "Name": "_AS_PV_eff",
+        "StartCode": "File processing with description '_AS_PV_eff' has started.",
+        "StopCode": "File processing with description '_AS_PV_eff' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "AustSuper_DVR_",
+        "StartCode": "File processing with description 'AustSuper_DVR_' has started.",
+        "StopCode": "File processing with description 'AustSuper_DVR_' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "Rebalancing",
+        "StartCode": "File processing with description 'Rebalancing' has started.",
+        "StopCode": "File processing with description 'Rebalancing' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "ASX_ASUPER",
+        "StartCode": "File processing with description 'ASX_ASUPER' has started.",
+        "StopCode": "File processing with description 'ASX_ASUPER' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "MSCI_ASUPER",
+        "StartCode": "File processing with description 'MSCI_ASUPER' has started.",
+        "StopCode": "File processing with description 'MSCI_ASUPER' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "PEFS_UPLOAD_FILE",
+        "StartCode": "File processing with description 'Property Look Through Constituents' has started.",
+        "StopCode": "File processing with description 'Property Look Through Constituents' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "Orbis Global Equity Fund",
+        "StartCode": "File processing with description 'Orbis Global Equity Fund' has started.",
+        "StopCode": "File processing with description 'Orbis Global Equity Fund' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "PEFS_UPLOAD_FILE_PE",
+        "StartCode": "File processing with description 'PEFS_UPLOAD_FILE_PE' has started.",
+        "StopCode": "File processing with description 'PEFS_UPLOAD_FILE_PE' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_BABSON-BN",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_BABSON-BN' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_BABSON-BN' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_AUSSUPER-AQ",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_AUSSUPER-AQ' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_AUSSUPER-AQ' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_ASMAM-MH",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_ASMAM-MH' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_ASMAM-MH' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_ASMAXCP-MX",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_ASMAXCP-MX' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_ASMAXCP-MX' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_ASOAKHIL-OI",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_ASOAKHIL-OI' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_ASOAKHIL-OI' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_ASINFSUB-AQ",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_ASINFSUB-AQ' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_ASINFSUB-AQ' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_AUSSPLTD-BA",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_AUSSPLTD-BA' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_AUSSPLTD-BA' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "SSAV",
+        "StartCode": "File processing with description 'SSAV' has started.",
+        "StopCode": "File processing with description 'SSAV' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "AS_JPM_ExchangeRates_",
+        "StartCode": "File processing with description 'AS_JPM_ExchangeRates_' has started.",
+        "StopCode": "File processing with description 'AS_JPM_ExchangeRates_' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "ETRS_CASH_COMPOSITES",
+        "StartCode": "File processing with description 'ETRS_CASH_COMPOSITES' has started.",
+        "StopCode": "File processing with description 'ETRS_CASH_COMPOSITES' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "AustSuper_FXR_",
+        "StartCode": "File processing with description 'AustSuper_FXR_' has started.",
+        "StopCode": "File processing with description 'AustSuper_FXR_' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_ASDHYC-AQ",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_ASDHYC-AQ' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_ASDHYC-AQ' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Holdings_Bankdebt_Summary_AUSIFM-AQ",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_AUSIFM-AQ' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_AUSIFM-AQ' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "Test",
+        "StartCode": "File processing with description 'Test' has started.",
+        "StopCode": "File processing with description 'Test' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "AlphaCert_Counterparty_and_Issuer_Report",
+        "StartCode": "File processing with description 'AlphaCert_Counterparty_and_Issuer_Report' has started.",
+        "StopCode": "File processing with description 'AlphaCert_Counterparty_and_Issuer_Report' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "FactSetHeldRequest",
+        "StartCode": "File processing with description 'FactSet_Enrichment_Request_Held_{CurrentDate|yyyyMMdd}_{BatchId|0}.csv' has started.",
+        "StopCode": "File processing with description 'FactSet_Enrichment_Request_Held_{CurrentDate|yyyyMMdd}_{BatchId|0}.csv' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "FactSetHeldResponse",
+        "StartCode": "File processing with description 'FactSet_Enrichment_Response_Held' has started.",
+        "StopCode": "File processing with description 'FactSet_Enrichment_Response_Held' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "FactSetNotHeldRequest",
+        "StartCode": "File processing with description 'FactSet_Enrichment_Request_NotHeld_{CurrentDate|yyyyMMdd}_{BatchId|0}.csv' has started.",
+        "StopCode": "File processing with description 'FactSet_Enrichment_Request_NotHeld_{CurrentDate|yyyyMMdd}_{BatchId|0}.csv' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "FactSetNotHeldResponse",
+        "StartCode": "File processing with description 'FactSet_Enrichment_Response_NotHeld' has started.",
+        "StopCode": "File processing with description 'FactSet_Enrichment_Response_NotHeld' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_aasx_index",
+        "StartCode": "File processing with description 'bdf_aasx_index' has started.",
+        "StopCode": "File processing with description 'bdf_aasx_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_aasx_family",
+        "StartCode": "File processing with description 'bdf_aasx_family' has started.",
+        "StopCode": "File processing with description 'bdf_aasx_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_aasx_const",
+        "StartCode": "File processing with description 'bdf_aasx_const' has started.",
+        "StopCode": "File processing with description 'bdf_aasx_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_aasx_qa",
+        "StartCode": "File processing with description 'bdf_aasx_qa' has started.",
+        "StopCode": "File processing with description 'bdf_aasx_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_aasx_sec",
+        "StartCode": "File processing with description 'bdf_aasx_sec' has started.",
+        "StopCode": "File processing with description 'bdf_aasx_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_asx_bld_index",
+        "StartCode": "File processing with description 'bdf_asx_bld_index' has started.",
+        "StopCode": "File processing with description 'bdf_asx_bld_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_asx_bld_family",
+        "StartCode": "File processing with description 'bdf_asx_bld_family' has started.",
+        "StopCode": "File processing with description 'bdf_asx_bld_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_asx_bld_const",
+        "StartCode": "File processing with description 'bdf_asx_bld_const' has started.",
+        "StopCode": "File processing with description 'bdf_asx_bld_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_asx_bld_qa",
+        "StartCode": "File processing with description 'bdf_asx_bld_qa' has started.",
+        "StopCode": "File processing with description 'bdf_asx_bld_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_asx_bld_sec",
+        "StartCode": "File processing with description 'bdf_asx_bld_sec' has started.",
+        "StopCode": "File processing with description 'bdf_asx_bld_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_bove_index",
+        "StartCode": "File processing with description 'bdf_bove_index' has started.",
+        "StopCode": "File processing with description 'bdf_bove_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_bove_family",
+        "StartCode": "File processing with description 'bdf_bove_family' has started.",
+        "StopCode": "File processing with description 'bdf_bove_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_bove_const",
+        "StartCode": "File processing with description 'bdf_bove_const' has started.",
+        "StopCode": "File processing with description 'bdf_bove_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_bove_qa",
+        "StartCode": "File processing with description 'bdf_bove_qa' has started.",
+        "StopCode": "File processing with description 'bdf_bove_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_bove_sec",
+        "StartCode": "File processing with description 'bdf_bove_sec' has started.",
+        "StopCode": "File processing with description 'bdf_bove_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_jtse_index",
+        "StartCode": "File processing with description 'bdf_jtse_index' has started.",
+        "StopCode": "File processing with description 'bdf_jtse_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_jtse_family",
+        "StartCode": "File processing with description 'bdf_jtse_family' has started.",
+        "StopCode": "File processing with description 'bdf_jtse_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_jtse_const",
+        "StartCode": "File processing with description 'bdf_jtse_const' has started.",
+        "StopCode": "File processing with description 'bdf_jtse_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_jtse_qa",
+        "StartCode": "File processing with description 'bdf_jtse_qa' has started.",
+        "StopCode": "File processing with description 'bdf_jtse_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_jtse_sec",
+        "StartCode": "File processing with description 'bdf_jtse_sec' has started.",
+        "StopCode": "File processing with description 'bdf_jtse_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_kosp_index",
+        "StartCode": "File processing with description 'bdf_kosp_index' has started.",
+        "StopCode": "File processing with description 'bdf_kosp_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_kosp_family",
+        "StartCode": "File processing with description 'bdf_kosp_family' has started.",
+        "StopCode": "File processing with description 'bdf_kosp_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_kosp_const",
+        "StartCode": "File processing with description 'bdf_kosp_const' has started.",
+        "StopCode": "File processing with description 'bdf_kosp_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_kosp_qa",
+        "StartCode": "File processing with description 'bdf_kosp_qa' has started.",
+        "StopCode": "File processing with description 'bdf_kosp_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_kosp_sec",
+        "StartCode": "File processing with description 'bdf_kosp_sec' has started.",
+        "StopCode": "File processing with description 'bdf_kosp_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msda_index",
+        "StartCode": "File processing with description 'bdf_msda_index' has started.",
+        "StopCode": "File processing with description 'bdf_msda_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msda_family",
+        "StartCode": "File processing with description 'bdf_msda_family' has started.",
+        "StopCode": "File processing with description 'bdf_msda_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msda_const",
+        "StartCode": "File processing with description 'bdf_msda_const' has started.",
+        "StopCode": "File processing with description 'bdf_msda_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msda_qa",
+        "StartCode": "File processing with description 'bdf_msda_qa' has started.",
+        "StopCode": "File processing with description 'bdf_msda_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msda_sec",
+        "StartCode": "File processing with description 'bdf_msda_sec' has started.",
+        "StopCode": "File processing with description 'bdf_msda_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msde_index",
+        "StartCode": "File processing with description 'bdf_msde_index' has started.",
+        "StopCode": "File processing with description 'bdf_msde_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msde_family",
+        "StartCode": "File processing with description 'bdf_msde_family' has started.",
+        "StopCode": "File processing with description 'bdf_msde_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msde_const",
+        "StartCode": "File processing with description 'bdf_msde_const' has started.",
+        "StopCode": "File processing with description 'bdf_msde_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msde_qa",
+        "StartCode": "File processing with description 'bdf_msde_qa' has started.",
+        "StopCode": "File processing with description 'bdf_msde_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msde_sec",
+        "StartCode": "File processing with description 'bdf_msde_sec' has started.",
+        "StopCode": "File processing with description 'bdf_msde_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdp_index",
+        "StartCode": "File processing with description 'bdf_msdp_index' has started.",
+        "StopCode": "File processing with description 'bdf_msdp_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdp_family",
+        "StartCode": "File processing with description 'bdf_msdp_family' has started.",
+        "StopCode": "File processing with description 'bdf_msdp_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdp_const",
+        "StartCode": "File processing with description 'bdf_msdp_const' has started.",
+        "StopCode": "File processing with description 'bdf_msdp_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdp_qa",
+        "StartCode": "File processing with description 'bdf_msdp_qa' has started.",
+        "StopCode": "File processing with description 'bdf_msdp_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdp_sec",
+        "StartCode": "File processing with description 'bdf_msdp_sec' has started.",
+        "StopCode": "File processing with description 'bdf_msdp_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdu_index",
+        "StartCode": "File processing with description 'bdf_msdu_index' has started.",
+        "StopCode": "File processing with description 'bdf_msdu_index' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdu_family",
+        "StartCode": "File processing with description 'bdf_msdu_family' has started.",
+        "StopCode": "File processing with description 'bdf_msdu_family' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdu_const",
+        "StartCode": "File processing with description 'bdf_msdu_const' has started.",
+        "StopCode": "File processing with description 'bdf_msdu_const' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdu_qa",
+        "StartCode": "File processing with description 'bdf_msdu_qa' has started.",
+        "StopCode": "File processing with description 'bdf_msdu_qa' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "bdf_msdu_sec",
+        "StartCode": "File processing with description 'bdf_msdu_sec' has started.",
+        "StopCode": "File processing with description 'bdf_msdu_sec' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "BlackRockNav",
+        "StartCode": "File processing with description 'NAV{ValuationDateCounter|0}_{ValuationDate|yyyyMMdd}.csv' has started.",
+        "StopCode": "File processing with description 'NAV{ValuationDateCounter|0}_{ValuationDate|yyyyMMdd}.csv' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "BlackRockPrice",
+        "StartCode": "File processing with description 'prices{ValuationDateCounter|0}.{ValuationDate|yyyyMMdd}.csv' has started.",
+        "StopCode": "File processing with description 'prices{ValuationDateCounter|0}.{ValuationDate|yyyyMMdd}.csv' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "BlackRockSecurityMaster",
+        "StartCode": "File processing with description 'secm_{ValuationDate|yyyyMMdd}.csv' has started.",
+        "StopCode": "File processing with description 'secm_{ValuationDate|yyyyMMdd}.csv' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "BlackRockPositions",
+        "StartCode": "File processing with description 'holdings_{ValuationDate|yyyyMMdd}.csv' has started.",
+        "StopCode": "File processing with description 'holdings_{ValuationDate|yyyyMMdd}.csv' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "BlackRockFxPosition",
+        "StartCode": "File processing with description 'posfx_AS_{ValuationDate|yyyyMMdd}.csv' has started.",
+        "StopCode": "File processing with description 'posfx_AS_{ValuationDate|yyyyMMdd}.csv' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPMTermsAndConditions",
+        "StartCode": "File processing with description 'AusSuper_Cap_Terms_Rep' has started.",
+        "StopCode": "File processing with description 'AusSuper_Cap_Terms_Rep' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "BlackRock_Attributes",
+        "StartCode": "File processing with description 'BlackRock_Attributes' has started.",
+        "StopCode": "File processing with description 'BlackRock_Attributes' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Valuation_with_ID_ASRAAD-AQ",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_ASRAAD-AQ' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_ASRAAD-AQ' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      },
+      {
+        "Name": "JPM_Valuation_with_ID_ASWAM-WT",
+        "StartCode": "File processing with description 'JPM_Valuation_with_ID_ASWAM-WT' has started.",
+        "StopCode": "File processing with description 'JPM_Valuation_with_ID_ASWAM-WT' has finished.",
+        "IsActive": true,
+        "ThresholdMaxTimeInSec": 25
+      }
+    ]
+  }
+]
