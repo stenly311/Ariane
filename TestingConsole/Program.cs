@@ -21,6 +21,7 @@ namespace TestingConsole
             while (!canceled)
             {
                 Console.WriteLine($"This is message #{counting++}");
+                Thread.Sleep(300);
 
                 // each 10th run trigger measuring
                 if (counting % 10 == 0)
