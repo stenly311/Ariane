@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media.Animation;
 using Ariane.Type.Configuration;
 using Ariane.Types;
 using Ariane.ViewModels;
@@ -27,6 +29,32 @@ namespace Ariane.Views
             configuration = CreateProcessConfigurations();
             VM = new MainWindowViewModel(configuration);
             InitializeComponent();
+        }
+
+        private void btnBottomMenuShow_Click(object sender, RoutedEventArgs e)
+        {
+            ShowHideMenu("sbShowBottomMenu", btnBottomMenuHide, btnBottomMenuShow, pnlBottomMenu);
+        }
+        private void btnBottomMenuHide_Click(object sender, RoutedEventArgs e)
+        {
+            ShowHideMenu("sbHideBottomMenu", btnBottomMenuHide, btnBottomMenuShow, pnlBottomMenu);
+        }
+
+        private void ShowHideMenu(string sb, Button btnHide, Button btnShow, StackPanel pnl)
+        {
+            Storyboard storyBoard = Resources[sb] as Storyboard;
+            storyBoard.Begin(pnl);
+
+            if (sb.Contains("Show"))
+            {
+                btnHide.Visibility = Visibility.Visible;
+                btnShow.Visibility = Visibility.Hidden;
+            }
+            else if (sb.Contains("Hide"))
+            {
+                btnHide.Visibility = Visibility.Hidden;
+                btnShow.Visibility = Visibility.Visible;
+            }
         }
 
         private List<ProcessConfiguration> CreateProcessConfigurations()
@@ -118,6 +146,11 @@ namespace Ariane.Views
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void NavigateToGitHub(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://github.com/stenly311/Ariane");
         }
     }
 }
