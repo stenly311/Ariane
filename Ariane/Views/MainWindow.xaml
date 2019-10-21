@@ -45,8 +45,7 @@
             <!--<MenuItem Header="Reports">
                 <MenuItem Header="Open" Command="{Binding Path=ViewReportCommand}" />
             </MenuItem>-->
-        </Menu>
-        
+        </Menu>        
         <Grid x:Name="LayoutRoot">
             <Grid.RowDefinitions>
                 <RowDefinition Height="40" />
@@ -60,7 +59,7 @@
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                
+                <CheckBox Margin="10,0,10,0" Name="MonitorConsoleCheckbox" VerticalAlignment="Center" Grid.Column="0" IsChecked="True" ToolTip="Check if console output new lines should be monitored.">Monitor console output</CheckBox>
                 <WrapPanel Grid.Column="2">
                     <Button  Command="{Binding Path=StartProcessesCommand}" ToolTip="Ctrl+R">Start All</Button>
                     <Button Command="{Binding Path=StopProcessesCommand}" Margin="5,0,5,0" ToolTip="Ctrl+Shift+R">Stop All</Button>
@@ -98,7 +97,7 @@
                                         <ColumnDefinition Width="Auto"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <Label Grid.Column="0" Margin="5,0,0,0" ToolTip="Number of new lines in output console." Content="{Binding Path=CountOfNotVisitedOutputLines}"></Label>
+                                    <Label Grid.Column="0" Visibility="{Binding ElementName=MonitorConsoleCheckbox, Path=IsChecked, Converter={StaticResource BoolToVisibilityConverter} }" Margin="5,0,0,0" ToolTip="Number of new lines in output console." Content="{Binding Path=CountOfNotVisitedOutputLines}"></Label>
                                     <Label Grid.Column="1" Margin="5,0,0,0" ToolTip="{Binding Path=FilePath}" Content="{Binding Path=DisplayName}" HorizontalAlignment="Left" />
                                 </Grid>                                
                                 <Grid Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right">
