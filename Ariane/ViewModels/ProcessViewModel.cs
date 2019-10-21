@@ -358,6 +358,8 @@ namespace Ariane.ViewModels
         }
 
         private int _messageCounter= 0;
+        private int _maxMessages = 100;
+
         private void PublishMessageToConsole(string rowData)
         {
             DisposeOldConsoleMessages();
@@ -366,14 +368,14 @@ namespace Ariane.ViewModels
 
             if (IsCountingNotVisitedOutputLinesOn)
             {
-                if (_messageCounter > 100)
+                if (_messageCounter > _maxMessages)
                 {
-                    CountOfNotVisitedOutputLines = $"{_messageCounter.ToString()}+";
+                    CountOfNotVisitedOutputLines = $"New (>{_maxMessages})";
                 }
                 else
                 {
                     _messageCounter++;
-                    CountOfNotVisitedOutputLines = _messageCounter.ToString();
+                    CountOfNotVisitedOutputLines = $"New ({_messageCounter})";
                 }
             }
         }
@@ -395,7 +397,7 @@ namespace Ariane.ViewModels
             if (_messageCounter != 0)
             {
                 _messageCounter = 0;
-                CountOfNotVisitedOutputLines = "0";
+                CountOfNotVisitedOutputLines = "";
             }
         }
 
