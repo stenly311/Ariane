@@ -375,7 +375,7 @@ namespace Ariane.ViewModels
                 else
                 {
                     _messageCounter++;
-                    CountOfNotVisitedOutputLines = $"New ({_maxMessages})";
+                    CountOfNotVisitedOutputLines = $"New ({_messageCounter})";
                 }
             }
         }
