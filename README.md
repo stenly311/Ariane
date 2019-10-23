@@ -1,7 +1,10 @@
 # Ariane
 
-Simple to use, reliable to run and fast to start with utility for process orchestration and execution measuring. 
-Standalone application written in **WPF** for easier maintaining multiple console applications output, running simultaneously in the background, under the one user interface window.
+Simple to use, reliable to run and fast to start utility to manage process orchestration and execution measurings. 
+Standalone application written in **WPF** for easier maintenance of multiple console applications windows, running simultaneously in the background.
+Filter output messages based on Error or Success flags.
+
+![Screenshots](doc/StartingProcesses.GIF)
 
 ## What type of problems this project help you to solve?
 This approach helps you to keep a track of the latest output data coming from console applications, navigate into Error messages by 
