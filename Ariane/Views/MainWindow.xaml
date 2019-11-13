@@ -134,7 +134,7 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <ListView Grid.Row="0" Background="#012456" Foreground="White" Height="300" DisplayMemberPath="Text" DataContext="{Binding Path=SelectedProcess}"
+                    <ListView Grid.Row="0" Background="#012456" FontFamily="Courier New" Foreground="White" Height="300" DisplayMemberPath="Text" DataContext="{Binding Path=SelectedProcess}"
                   ItemsSource="{Binding Path=ConsoleOutputStream}" VirtualizingStackPanel.VirtualizationMode="Recycling" Name="LogList">
                         <ListBox.ContextMenu>
                             <ContextMenu>
