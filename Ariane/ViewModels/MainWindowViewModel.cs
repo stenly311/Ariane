@@ -17,10 +17,7 @@ using Newtonsoft.Json;
 namespace Ariane.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
-    {
-        private CompositionComposer _composer;
-        private MEFPluginRunner _mEFPluginRunner;
-
+    {        
         public MainWindowViewModel(IList<ProcessConfiguration> conf)
         {
             RegisterProcesses(conf);
@@ -134,17 +131,7 @@ namespace Ariane.ViewModels
             var processes = Processes
                             .Where(x=>x.MeasureSettings.Any(y=> y.MeasuredUnits.Any() ))
                             .Select(x=>AutoMapper.Mapper.Map<Process>(x))
-                            .ToList();
-
-            App.Current.Dispatcher.Invoke((System.Action)delegate
-            {
-                _mEFPluginRunner.Initiate("MainMenu_ViewReport", processes);
-
-                // TESTING
-                //var w = new ReportWindow(new ReportViewModel(mock));
-                //var w = new ReportWindow(new ReportViewModel(processes));
-                //bool? shw = w.ShowDialog();
-            });
+                            .ToList();            
         }
 
         public ProcessViewModel SelectedProcess { get; set; }
@@ -192,8 +179,6 @@ namespace Ariane.ViewModels
                 Processes.ForEach(x=>x.CloseViewModelAsync(null));
 
                 SaveToJsonFile();
-
-                _composer.Dispose();
 
                 await base.CloseAsync();
             }
