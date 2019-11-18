@@ -140,7 +140,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Attributes\Visible.cs" />
-    <Compile Include="CompositionComposer.cs" />
     <Compile Include="Controls\AutoDisableImage.cs" />
     <Compile Include="Converters\BoolToImageConverter.cs" />
     <Compile Include="Converters\SelectedItemToVisibilityConverter.cs" />
@@ -149,8 +148,6 @@
     <Compile Include="Helpers\ConverterHelper.cs" />
     <Compile Include="Helpers\PopulateHelper.cs" />
     <Compile Include="Helpers\RepeatHelper.cs" />
-    <Compile Include="MEFPluginRunner.cs" />
-    <Compile Include="PluginRunner.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
