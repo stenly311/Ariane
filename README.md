@@ -1,21 +1,23 @@
 # Ariane
 
+## Intro
 Easy to use utility for Windows process background processing orchestration monitoring. 
 Standalone Windows application built on **WPF** with multiple consoles display capabilities and high level of customization with JSON file.
 
 With this application, users can easily filter and copy text output messages from the console to any other application.
-
-## Application UI overview
-![Screenshots](doc/StartingProcesses.GIF)
-
-## What type of problems does it solve?
-The application helps you to keep a track of the latest output console data coming from Windows background processes and navigate to Error type messages by using custom filters and copying selected text records from the output console out to another application for further data analysis.
 
 The standalone application is built as one executable file, only. This helps users with application portability, **is insanely easy to install (just copy the file and run)**, and keeps all dependency libraries in one physical container.
 
 A new integration extension with **RabbitMQ** Pub/Sub Saas/service helps to decouple the utility from the background services, hosted on one application server or on globally distributed virtual machines. For more details on how to configure the pipeline, navigate to the RabbitMQ section below. 
 
 **(Prerequisite) The utility listens to Win events for process Start/Stop and needs to have an Administrator Windows access granted before start.**
+
+## Application UI overview
+![Screenshots](doc/StartingProcesses.GIF)
+
+## What type of problems does it solve?
+1. The application helps to keep a track of the latest output console data coming from Windows background processes and navigate to Error type messages by using custom filters and copying selected text records from the output console out to another application for further data analysis.
+1. The application helps to measure background process macro operations (customizable) and displays the indication whether going over the benchmark (good for performance monitoring and testing)
 
 ## Quick guide on how to interact with the user interface
 
@@ -150,4 +152,4 @@ Leave me [your feedback](https://www.martinstanik.com "My blog")  and enjoy the 
 
 ## Authors
 
-* **Stanik Martin** - *The thinker* - [Stenly311](https://github.com/stenly311)
+* **Stanik Martin** - *The thinker and builder* - [Stenly311](https://github.com/stenly311)
