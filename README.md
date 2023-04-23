@@ -1,22 +1,23 @@
 # Ariane
 
-Simple to use, reliable to run and fast to start utility to manage process orchestration and execution measurings. 
-Standalone application written in **WPF** for easier maintenance of multiple console applications windows, running simultaneously in the background.
-Filter output messages based on Error or Success flags.
+Easy to use utility for Windows process background processing orchestration monitoring. 
+Standalone Windows application built on **WPF** with multiple consoles display capabilities and high level of customization with JSON file.
 
+With this application, users can easily filter and copy text output messages from the console to any other application.
+
+## Application UI overview
 ![Screenshots](doc/StartingProcesses.GIF)
 
 ## What type of problems this project help you to solve?
-This approach helps you to keep a track of the latest output data coming from console applications, navigate into Error messages by 
-applying filters or copy and paste selected records from the output window container for further context investigation.
+The application helps you to keep a track of the latest output console data coming from Windows background processes and navigate to Error type messages by using custom filters and copying selected text records from the output console out to another application for further data analysis.
 
-Standalone application gets build into one executable file for easy to install and peace of mind purposes, so that all dependent references are on the place during run time.
+The standalone application is built as one executable file, only. This helps users with application portability, **is insanely easy to install (just copy the file and run)**, and keeps all dependency libraries in one physical container.
 
-Also supports consuming messages send via **RabbitMQ exchange**. For more details how to configure pipeline, navigate into RabbitMQ section below. 
+A new integration extension with **RabbitMQ** Pub/Sub Saas/service helps to decouple the utility from the background services, hosted on one application server or on globally distributed virtual machines. For more details on how to configure the pipeline, navigate to the RabbitMQ section below. 
 
-Utility listens to Win events for process Start/Stop and for this reason, it needs to have Administrator rights granted before start.
+**(Prerequisite) The utility listens to Win events for process Start/Stop and needs to have an Administrator Windows access granted before start.**
 
-## Quick guide how to interact with user interface
+## Quick guide on how to interact with the user interface
 
 ![Screenshots](doc/ProcessList.jpg)
 
@@ -34,8 +35,8 @@ Utility listens to Win events for process Start/Stop and for this reason, it nee
 
 ## Does not require installation, just:
 1. Build the solution
-2. Run the Ariane executable file for first time and after it opens up, close it
-3. **Configuration.JSON** file at application root path will be generated
+2. Run the Ariane executable file for the first time and after it opens up, close it
+3. **Configuration.JSON** file at the application root path will be generated
 4. Open the file and configure your processes
 5. Start Ariane
 
@@ -145,8 +146,8 @@ Where possible, pull requests should include unit tests that cover as many uses 
 
 Code conventions are based on Resharper - if you dont have it, follow ones at VS.
 
-Leave me [your feedback](https://www.martinstanik.com "My personal home page")  and enjoy the app!
+Leave me [your feedback](https://www.martinstanik.com "My blog")  and enjoy the app!
 
 ## Authors
 
-* **Stanik Martin** - *Initial work* - [Stenly311](https://github.com/stenly311)
+* **Stanik Martin** - *The thinker* - [Stenly311](https://github.com/stenly311)
