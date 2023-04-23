@@ -8,7 +8,7 @@ With this application, users can easily filter and copy text output messages fro
 ## Application UI overview
 ![Screenshots](doc/StartingProcesses.GIF)
 
-## What type of problems this project help you to solve?
+## What type of problems does it solve?
 The application helps you to keep a track of the latest output console data coming from Windows background processes and navigate to Error type messages by using custom filters and copying selected text records from the output console out to another application for further data analysis.
 
 The standalone application is built as one executable file, only. This helps users with application portability, **is insanely easy to install (just copy the file and run)**, and keeps all dependency libraries in one physical container.
