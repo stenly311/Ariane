@@ -87,7 +87,7 @@ A new integration extension with **RabbitMQ** Pub/Sub Saas/service helps to deco
 ```
 ## Application behaviour to be aware of
 In very long running use cases and beside the fact that output messages are stored in memory only,
-application will **keep 1100** console messages per process and will delete the oldest **100 every time number exceeds**.
+application will **keep 1100** console messages per process and will delete the oldest **100 every time number exceeds the threshold**.
 
 ## RabbitMQ pipeline configuration
 1. Install RabbitMQ if not installed already [RabbitMQ for Windows](https://www.rabbitmq.com/install-windows.html)
